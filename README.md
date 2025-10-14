@@ -1,6 +1,6 @@
 Bem-Estar Mental Local
 <p align="center">
-<img src="URL_DA_SUA_IMAGEM_DE_CAPA_AQUI" alt="Capa do Projeto Bem-Estar Mental Local" width="600"/>
+<img src="file:///C:/Users/Pichau/Downloads/exemplo%20projeto.PNG" alt="Capa do Projeto Bem-Estar Mental Local" width="600"/>
 </p>
 
 <p align="center">
@@ -74,7 +74,6 @@ Pronto! A página principal será carregada e você poderá navegar por todas as
 
 👤 Autor
 <p>
-<img src="URL_DA_SUA_FOTO_DE_PERFIL" width="100px;" alt="Foto de João Caetano Biagio Lins"/>
 <br />
 <strong>João Caetano Biagio Lins</strong>
 </p>
