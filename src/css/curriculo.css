@@ -44,11 +44,12 @@ header h1 {
   grid-area: perfil;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1.5rem;
   padding-bottom: 2rem;
   border-bottom: 1px dashed #ddd; 
 }
+
+
 
 .perfil figure {
   text-align: center;
@@ -67,10 +68,12 @@ header h1 {
 }
 
 .perfil ul {
+  grid-area: perfil;
   display: flex;
   flex-direction: column;
   gap: 1rem; 
   padding: 0;
+  align-items: center;
 }
 
 .perfil li {
@@ -100,7 +103,6 @@ header h1 {
 section {
   padding-bottom: 2rem;
 }
-
 
 
 h2 {
