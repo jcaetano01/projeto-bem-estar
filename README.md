@@ -14,7 +14,7 @@ Projeto de front-end para a disciplina de Programação Web, com o objetivo de c
 
 
 💡 Sobre o Projeto
-O Bem-Estar Mental Local é uma landing page estática desenvolvida como parte do Projeto 1 da disciplina de Programação Web Front-End. A aplicação foi criada para ser um ponto central de informações confiáveis sobre saúde mental, oferecendo aos usuários um acesso rápido e fácil a recursos de apoio disponíveis em sua localidade.
+O Bem-Estar Local é uma landing page estática desenvolvida como parte do Projeto 1 da disciplina de Programação Web Front-End. A aplicação foi criada para ser um ponto central de informações confiáveis sobre saúde mental, oferecendo aos usuários um acesso rápido e fácil a recursos de apoio disponíveis em sua localidade.
 
 O projeto visa não apenas aplicar os conceitos de HTML5 e CSS, mas também promover a conscientização sobre a importância do cuidado com a saúde mental e facilitar o acesso a ajuda profissional e comunitária.
 
