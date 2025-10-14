@@ -1,4 +1,4 @@
-Bem-Estar Mental Local
+# Bem-Estar Local
 
 Projeto de front-end para a disciplina de Programação Web, com o objetivo de criar uma plataforma que conecta usuários a recursos de saúde mental em sua comunidade, atendendo ao Objetivo de Desenvolvimento Sustentável (ODS) 3 - Saúde e Bem-Estar.
 
