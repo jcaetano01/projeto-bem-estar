@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
@@ -54,27 +55,35 @@
             <div class="container">
                 <h2>Recursos Disponíveis</h2>
                 <div class="cards-container">
-                    <article class="card">
-                        <img src="src/img/caixa1.jpg" alt="Meditando">
-                        <div class="card-content">
-                            <h3>Centros de Apoio (CAPS)</h3>
-                            <p>Encontre unidades de atendimento psicossocial gratuitas perto de você.</p>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="src/img/caixa2.webp" alt="Pscólogo">
-                        <div class="card-content">
-                            <h3>Terapeutas Locais</h3>
-                            <p>Acesse uma lista de psicólogos e terapeutas validados na sua região.</p>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="src/img/caixa3.jpg" alt="Grupo">
-                        <div class="card-content">
-                            <h3>Grupos Comunitários</h3>
-                            <p>Participe de grupos de apoio para compartilhar experiências e crescer junto.</p>
-                        </div>
-                    </article>
+                    <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps" target="_blank" class="card-link">
+                        <article class="card">
+                            <img src="src/img/caixa1.jpg" alt="Meditando">
+                            <div class="card-content">
+                                <h3>Centros de Apoio (CAPS)</h3>
+                                <p>Encontre unidades de atendimento psicossocial gratuitas perto de você.</p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="https://www.doctoralia.com.br/psicologo/cornelio-procopio" target="_blank" class="card-link">
+                        <article class="card">
+                            <img src="src/img/caixa2.webp" alt="Pscólogo">
+                            <div class="card-content">
+                                <h3>Terapeutas Locais</h3>
+                                <p>Acesse uma lista de psicólogos e terapeutas validados na sua região.</p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="https://cvv.org.br/" target="_blank" class="card-link">
+                        <article class="card">
+                            <img src="src/img/caixa3.webp" alt="CVV.">
+                            <div class="card-content">
+                                <h3>Linhas de Apoio 24h</h3>
+                                <p>Se precisar conversar,  utilize contatos como o CVV (disque 188).</p>
+                            </div>
+                        </article>
+                    </a>
                 </div>
             </div>
         </section>
@@ -84,12 +93,12 @@
                 <h2>Mitos e Verdades sobre Saúde Mental</h2>
                 <div class="mitos-container">
                     <article class="mito-card">
-                        <h3>❌ Mito: Problemas de saúde mental são sinal de fraqueza.</h3>
-                        <h3>✅ Verdade: Transtornos mentais são condições médicas, não falhas de caráter. Procurar ajuda é um ato de grande força e coragem.</p>
+                        <h3><i class="fa-solid fa-xmark"></i> Mito: Problemas de saúde mental são sinal de fraqueza.</h3>
+                        <h3><i class="fa-solid fa-check"></i> Verdade: Transtornos mentais são condições médicas, não falhas de caráter. Procurar ajuda é um ato de grande força e coragem.</h3>
                     </article>
                     <article class="mito-card">
-                        <h3>❌ Mito: Terapia é só para "gente louca".</h3>
-                        <h3>✅ Verdade: Terapia é para qualquer pessoa que busca autoconhecimento, quer melhorar relacionamentos ou aprender a lidar com desafios da vida.</p>
+                        <h3><i class="fa-solid fa-xmark"></i> Mito: Terapia é só para "gente louca".</h3>
+                        <h3><i class="fa-solid fa-check"></i> Verdade: Terapia é para qualquer pessoa que busca autoconhecimento, quer melhorar relacionamentos ou aprender a lidar com desafios da vida.</h3>
                     </article>
                 </div>
             </div>
@@ -98,11 +107,11 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Bem-Estar Mental Local - Todos os direitos reservados.</p>
+            <p> 2025 - Bem-Estar Mental Local</p>
             <div class="curriculos">
                 <p>Desenvolvido por:</p>
                 <ul>
-                    <li><a href="curriculo.html" target="_blank">João Caetano Biagio Lins</a></li>
+                    <li><a href="curriculo.html">João Caetano Biagio Lins</a></li>
                 </ul>
             </div>
         </div>
