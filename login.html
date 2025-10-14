@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bem-Estar Mental Local</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/css/formularios.css"> 
+</head>
+<body>
+
+    <div class="form-container">
+        <header class="form-header">
+            <h1>Acesse sua Conta</h1>
+            <p>Bem-vindo de volta! Faça login para continuar.</p>
+        </header>
+
+        <main>
+            <form action="index.html" method="get">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+        </main>
+
+        <footer class="form-footer">
+            <p>Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>

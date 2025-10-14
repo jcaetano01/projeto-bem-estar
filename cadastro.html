@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Bem-Estar Mental Local</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/css/formularios.css"> 
+</head>
+<body>
+
+    <div class="form-container">
+        <header class="form-header">
+            <h1>Crie sua Conta</h1>
+            <p>Junte-se à nossa comunidade e encontre apoio local.</p>
+        </header>
+
+        <main>
+            <form action="login.html" method="get">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu melhor e-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Crie uma senha forte" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmar-senha">Confirmação de Senha</label>
+                    <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="bairro">Bairro/Região</label>
+                    <input type="text" id="bairro" name="bairro" placeholder="Informe seu bairro para ver recursos próximos" required>
+                </div>
+
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+        </main>
+
+        <footer class="form-footer">
+            <p>Já possui uma conta? <a href="login.html">Faça login aqui</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>

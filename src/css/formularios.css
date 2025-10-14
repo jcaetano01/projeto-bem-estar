@@ -1,0 +1,98 @@
+/* Estilos Globais para as Páginas de Formulário */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container Principal do Formulário */
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Cabeçalho do Formulário */
+.form-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #005f73; /* Cor principal */
+    margin-bottom: 10px;
+}
+
+.form-header p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Grupos de Campos do Formulário */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #005f73; /* Destaque ao focar */
+}
+
+/* Botão de Envio */
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #005f73; /* Cor principal */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004c5a; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Rodapé do Formulário */
+.form-footer {
+    margin-top: 25px;
+}
+
+.form-footer p {
+    color: #555;
+}
+
+.form-footer a {
+    color: #005f73;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
