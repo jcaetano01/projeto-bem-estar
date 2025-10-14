@@ -1,4 +1,4 @@
-/* --- GERAL E RESET --- */
+/* --- GERAL --- */
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +6,9 @@
 }
 
 :root {
-    /* Nova Paleta de Cores Profissional */
-    --cor-principal: #264653; /* Azul-petróleo escuro */
-    --cor-secundaria: #2a9d8f; /* Verde-água */
-    --cor-destaque: #e9c46a; /* Amarelo-mostarda */
-    --cor-fundo: #f8f9fa;
+    --cor-principal: #264653; 
+    --cor-secundaria: #2a9d8f; 
+    --cor-destaque: #e9c46a; 
     --cor-texto: #343a40;
 }
 
@@ -19,8 +17,8 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif; /* Nova fonte principal */
-    background-color: var(--cor-fundo);
+    font-family: 'Poppins', sans-serif; 
+    background-color: #fff;
     color: var(--cor-texto);
 }
 
@@ -30,9 +28,21 @@ body {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--cor-principal);
+    margin-bottom: 60px;
+}
+
 /* --- HEADER ----*/
 header {
-    background-color: var(--cor-fundo);
+    background-color: #fff;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -54,7 +64,7 @@ header h1 {
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 25px; /* Espaçamento entre os itens do menu */
+    gap: 25px; 
 }
 
 header nav ul li a {
@@ -81,7 +91,7 @@ header nav ul li a:hover::after {
     width: 100%;
 }
 
-/* --- SEÇÃO HERO (PRIMEIRA SEÇÃO) --- */
+/* --- SEÇÃO 1:INICIO --- */
 #inicio {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(3, 3, 3, 0.4)), url('https://gravitymeditation.com/wp-content/uploads/2024/12/awb-9.jpg') no-repeat center center/cover;
     text-align: center;
@@ -112,7 +122,7 @@ header nav ul li a:hover::after {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* --- SEÇÃO O QUE É BEM-ESTAR (NOVO) --- */
+/* --- SEÇÃO 22: QUESTIONAMENTO --- */
 #quest {
     background-color: #fff; /* Fundo branco para contraste */
 }
@@ -148,7 +158,7 @@ header nav ul li a:hover::after {
     margin-bottom: 15px;
 }
 
-/* --- SEÇÃO DE RECURSOS (CARDS) --- */
+/* --- SEÇÃO 3: RECURSOS --- */
 #ajuda {
     background-color: var(--cor-secundaria);
 }
@@ -204,9 +214,15 @@ header nav ul li a:hover::after {
     margin-bottom: 10px;
 }
 
-/* --- SEÇÃO MITOS E VERDADES (NOVO) --- */
+
+.card-link {
+    text-decoration: none; 
+    color: inherit;       
+}
+
+/* --- SEÇÃO 4: MITOS  --- */
 #mitos {
-    background-color: var(--cor-fundo);
+    background-color: #fff;
 }
 
 .mitos-container {
@@ -234,7 +250,7 @@ header nav ul li a:hover::after {
     line-height: 1.7;
 }
 
-/* --- RODAPÉ (FOOTER) --- */
+/* --- FOOTER --- */
 footer {
     background-color: var(--cor-principal);
     color: #fff;
@@ -266,18 +282,6 @@ footer .curriculos a:hover {
 
 
 
-/* --- ESTILO GERAL DAS SEÇÕES --- */
-section {
-    padding: 80px 0;
-}
-
-
-section h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: var(--cor-principal);
-    margin-bottom: 60px;
-}
 
 
 
