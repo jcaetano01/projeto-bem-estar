@@ -75,7 +75,6 @@ header nav ul li a {
     padding-bottom: 5px;
 }
 
-/* Efeito dinâmico no menu */
 header nav ul li a::after {
     content: '';
     position: absolute;
@@ -124,20 +123,20 @@ header nav ul li a:hover::after {
 
 /* --- SEÇÃO 22: QUESTIONAMENTO --- */
 #quest {
-    background-color: #fff; /* Fundo branco para contraste */
+    background-color: #fff; 
 }
 
 .bem-estar-content {
     display: flex;
     align-items: center;
     gap: 50px;
-    flex-wrap: wrap; /* Para telas menores */
+    flex-wrap: wrap; 
 }
 
 .bem-estar-image,
 .bem-estar-text {
     flex: 1;
-    min-width: 300px; /* Ajuda na responsividade */
+    min-width: 300px; 
 }
 
 .bem-estar-image img {
@@ -279,6 +278,7 @@ footer .curriculos a {
 footer .curriculos a:hover {
     text-decoration: underline;
 }
+
 
 
 
