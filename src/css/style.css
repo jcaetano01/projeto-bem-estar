@@ -190,7 +190,6 @@ header nav ul li a:hover::after {
     overflow: hidden;
     width: 300px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
